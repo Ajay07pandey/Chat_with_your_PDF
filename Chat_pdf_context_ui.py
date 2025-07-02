@@ -112,8 +112,8 @@ def get_conversational_rag_chain(vector_store, api_key):
 
 
 # --- Streamlit App Interface ---
-st.set_page_config(page_title="Elixir AI Assistant", page_icon="📄")
-st.title("📄 Elixir AI Assistant")
+st.set_page_config(page_title="CHat with your PDF", page_icon="📄")
+st.title("📄 Chat with your PDF")
 st.write("Hi How can i help you.")
 
 with st.sidebar:
